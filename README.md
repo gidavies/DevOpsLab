@@ -36,12 +36,22 @@ For this lab you will require:
 - [Exercise 6: Pull Requests](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-6-pull-requests)
 - [Exercise 7: Manage Repositories](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-7-manage-repositories). 
 
-# Labs
+# Lab 2: Continuous Integration
 
-- [Setup](http://almvm.azurewebsites.net/labs/vsts/)
-- [Working with Git](http://almvm.azurewebsites.net/labs/vsts/git/)
-- [Continuous Integration](http://almvm.azurewebsites.net/labs/vsts/continuousintegration/)
-- [Create an Azure web app](https://github.com/markharrisonuk/Lab_APIM/blob/master/README.md)
-- [Continuous Deployment](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/)
-- [Automated Testing with Selenium](http://almvm.azurewebsites.net/labs/vsts/selenium/)
-- [Monitoring with Application Insights](http://almvm.azurewebsites.net/labs/vsts/monitor/)
+[Continuous Integration](http://almvm.azurewebsites.net/labs/vsts/continuousintegration/)
+
+# Lab 3: Create an Azure Web App
+
+[Create an Azure web app](https://github.com/markharrisonuk/Lab_APIM/blob/master/README.md)
+
+# Lab 4: Continuous Deployment
+
+[Continuous Deployment](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/)
+
+# Lab 5: Automated Testing with Selenium
+
+[Automated Testing with Selenium](http://almvm.azurewebsites.net/labs/vsts/selenium/)
+
+# Lab 6: Monitoring with Application Insights
+
+[Monitoring with Application Insights](http://almvm.azurewebsites.net/labs/vsts/monitor/)
