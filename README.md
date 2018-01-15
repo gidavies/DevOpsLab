@@ -38,6 +38,8 @@ For this lab you will require:
 - Configure the Markdown widget and add the names of your team and any other summary info that might be useful:
 <img src="images/5.png" width="624"/>
 
+- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
+
 # Lab 1: Working with Git
 
 [This lab](http://almvm.azurewebsites.net/labs/vsts/git/) will introduce you to using Git in VSTS for source control. 
@@ -50,7 +52,12 @@ For this lab you will require:
 - [Exercise 5: Manage branches from the Team Services Portal](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-5-manage-branches-from-the-team-services-portal)
 - [Exercise 6: Pull Requests](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-6-pull-requests)
 - [Exercise 7: Manage Repositories](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-7-manage-repositories). 
-4. Add a Markdown widget to your dashboard. 
+4. Add a Code Tile to your **Lab Progress** dashboard:
+- Add the Code Tile:
+<img src="images/6.png" width="624"/>
+- Configure it and make sure that the branch is **master**
+<img src="images/7.png" width="624"/>
+- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
 # Lab 2: Continuous Integration
 
