@@ -26,7 +26,7 @@ For this lab you will require:
 - In your VSTS project, select **Dashboard** and then **New**:
 <img src="images/1.png" width="624"/>
 
-- Name the new Dashboard: Lab Progress:
+- Name the new Dashboard **Lab Progress**:
 <img src="images/2.png" width="624"/>
 
 - Select the pencil icon in the bottom left, followed by the plus button:
