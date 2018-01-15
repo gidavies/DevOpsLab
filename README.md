@@ -73,7 +73,7 @@ Continuous Integration is a key DevOps practice to build, test and create the so
 
 # Lab 3: Create an Azure Web App
 
-[Create an Azure web app](https://github.com/markharrisonuk/Lab_APIM/blob/master/README.md)
+[Create an Azure web app]()
 
 # Lab 4: Continuous Deployment
 
