@@ -61,7 +61,15 @@ For this lab you will require:
 
 # Lab 2: Continuous Integration
 
-[Continuous Integration](http://almvm.azurewebsites.net/labs/vsts/continuousintegration/)
+Continuous Integration is a key DevOps practice to build, test and create the software to later deploy.
+
+1. Follow the [Continuous Integration Lab](http://almvm.azurewebsites.net/labs/vsts/continuousintegration/).
+2. Add a **Build History** widget to the **Lab Progress** dashboard by:
+- Searching for and adding the build history widget:
+<img src="images/8.png" width="624"/>
+- Ensuring that it is configured to the build definition created in the preceding steps:
+<img src="images/9.png" width="624"/>
+- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
 # Lab 3: Create an Azure Web App
 
