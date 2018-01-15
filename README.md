@@ -21,7 +21,22 @@ For this lab you will require:
 - Visual Studio 2017 installed (optional)
 
 1. Follow  [these instructions (overview section)](http://almvm.azurewebsites.net/labs/vsts/) to set the above up.
-2. Use the [VSTS Demo Generator](http://almvm.azurewebsites.net/labs/vsts/VSTSDemoGenerator/) to create a VSTS project using the **My Health Clinic** template.
+2. Use the [VSTS Demo Generator](http://almvm.azurewebsites.net/labs/vsts/VSTSDemoGenerator/) to create a VSTS project using the **My Health Clinic** template. Call the project **My Health Clinic** or something similar.
+3. Create a new Dashboard in VSTS:
+- In your VSTS project, select **Dashboard** and then **New**:
+<img src="images/1.png" width="624"/>
+
+- Name the new Dashboard: Lab Progress:
+<img src="images/2.png" width="624"/>
+
+- Select the pencil icon in the bottom left, followed by the plus button:
+<img src="images/3.png" width="624"/>
+
+- Search for and select the Markdown widget:
+<img src="images/4.png" width="624"/>
+
+- Configure the Markdown widget and add the names of your team and any other summary info that might be useful:
+<img src="images/5.png" width="624"/>
 
 # Lab 1: Working with Git
 
@@ -35,6 +50,7 @@ For this lab you will require:
 - [Exercise 5: Manage branches from the Team Services Portal](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-5-manage-branches-from-the-team-services-portal)
 - [Exercise 6: Pull Requests](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-6-pull-requests)
 - [Exercise 7: Manage Repositories](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-7-manage-repositories). 
+4. Add a Markdown widget to your dashboard. 
 
 # Lab 2: Continuous Integration
 
