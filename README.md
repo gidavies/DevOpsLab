@@ -12,7 +12,7 @@ This lab is intended to provide a learning path through the [many existing VSTS 
 
 # Overall flow
 
-- Setup
+- Preparing for the lab
 - Working with Git
 - Continuous Integration
 - Create an Azure web app
@@ -144,7 +144,7 @@ The exact page details will change over time but this now confirms that you have
 
 # Lab 4: Continuous Deployment
 
-Continuous Deployment is another key practice within DevOps to enable to continuous delivery of value (in this example the web application) to end users.
+Continuous Deployment is another key practice within DevOps to enable the continuous delivery of value (in this example the web application) to end users.
 
 1. Complete the following [Continuous Deployment Lab](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/) exercises:
 
