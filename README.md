@@ -29,6 +29,8 @@ For this lab you will require:
 - An Azure subscription (your own or a free trial)
 - Visual Studio 2017 installed (optional)
 
+>VSTS supports any app and doesn't require the use of Visual Studio, .NET or other Microsoft languages. At the bottom of this page there are links to labs that work through implementing DevOps with Node, Java, Eclipse, IntelliJ and Docker.
+
 1. Follow [these instructions (overview section)](http://almvm.azurewebsites.net/labs/vsts/) to set the above up.
 2. Use the [VSTS Demo Generator](http://almvm.azurewebsites.net/labs/vsts/VSTSDemoGenerator/) to create a VSTS project using the My Health Clinic template. Call the project My Health Clinic or something similar.
 
@@ -48,7 +50,7 @@ For this lab you will require:
 >- Configure the Markdown widget and add the names of your team and any other summary info that might be useful:
 ><img src="images/5.png" width="624"/>
 
-- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
+>- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
 
 # Lab 1: Working with Git
@@ -152,7 +154,7 @@ Continuous Deployment is another key practice within DevOps to enable the contin
 
 - [Exercise 2 (all)](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/#exercise-2-creating-release-definitions)
 
->Note: There is no need to complete Exercise 2 Steps 9 and 10 (replace the database connection string and ConnectionStrings variable plus Azure SQL database creation). The web application can create a local database.
+>Note: There is no need to complete Exercise 2 Steps 9 and 10 (replace the database connection string and ConnectionStrings variable plus Azure SQL database creation). The web application can create and use a local database.
 
 - [Exercise 3, Task 1 only](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/#task-1-triggers)
 
