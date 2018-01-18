@@ -84,11 +84,11 @@ Continuous Integration is a key DevOps practice to build, test and create the so
 <img src="images/WA-3.png" width="624"/>
 5. Complete the highlighted fields as follows:
 <img src="images/WA-4.png" width="624"/>
-6. App name: Choose a unique name that will be the URL for the web application. For example use Health plus your initials, e.g. Health-GJAD and therefore the URL for the website will be http://health-gjad.azurewebsites.net.
-7. Subscription: If you have more than one subscription, ensure that you choose the correct one for this lab.
-8. Resource Group: Create a new resource group for your web app.
-9. OS: Leave this as the default of Windows.
-10. App Service Plan/Location: Click on this to create a new App Service Plan. Complete these fields:
+- App name: Choose a unique name that will be the URL for the web application. E.g. Health plus your initials, and therefore the URL for the website will be http://healthandinitials.azurewebsites.net
+- Subscription: If you have more than one subscription, ensure that you choose the correct one for this lab.
+- Resource Group: Create a new resource group for your web app.
+- OS: Leave this as the default of Windows.
+- App Service Plan/Location: Click on this to create a new App Service Plan. Complete these fields:
     - App Service plan: Enter a name, such as HealthPlan.
     - Location: Select an Azure region close to you.
     - Pricing tier: Click on this, and select the F1 Free tier.
