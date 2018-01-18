@@ -15,6 +15,7 @@ This lab is intended to provide a learning path through the [many existing VSTS 
 - Continuous Integration
 - Create an Azure web app
 - Continuous Deployment
+- Infrastructure as Code
 - Automated Testing with Selenium
 - Monitoring with Application Insights
 
@@ -26,7 +27,7 @@ For this lab you will require:
 - An Azure subscription (your own or a free trial)
 - Visual Studio 2017 installed (optional)
 
-1. Follow  [these instructions (overview section)](http://almvm.azurewebsites.net/labs/vsts/) to set the above up.
+1. Follow [these instructions (overview section)](http://almvm.azurewebsites.net/labs/vsts/) to set the above up.
 2. Use the [VSTS Demo Generator](http://almvm.azurewebsites.net/labs/vsts/VSTSDemoGenerator/) to create a VSTS project using the My Health Clinic template. Call the project My Health Clinic or something similar.
 
 >Optional: Create a new Dashboard in VSTS:
@@ -186,7 +187,7 @@ Integrating automated tests into your DevOps pipeline can help drive quality whi
 
 DevOps doesn't stop at deployment into production. Monitoring and understanding your application provides valuble insight. 
 
-1. Complete the [Monitoring with Application Insights] Lab(http://almvm.azurewebsites.net/labs/vsts/monitor/)
+1. Complete the [Monitoring with Application Insights](http://almvm.azurewebsites.net/labs/vsts/monitor/) Lab
 
 # Other labs 
 
