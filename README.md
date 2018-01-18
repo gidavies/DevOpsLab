@@ -145,7 +145,15 @@ Continuous Deployment is another key practice within DevOps to enable to continu
 
 - Exercise 3, Task 1 only.
 
-2. Optional: Add a Release Definition Overview widget to the Lab Progress dashboard by:
+2. Confirm that the continuous deployment pipeline is working:
+
+- Make a code change in Visual Studio (such as adding a comment or a minor UI change),  committing and pushing the change.
+
+- Check the Continuous Integration build gets triggered.
+
+- Once complete the Continuous Deployment should be triggered to deploy the changes into Azure.
+
+3. Optional: Add a Release Definition Overview widget to the Lab Progress dashboard by:
 - Searching for and adding the Release Definition Overview widget:
 <img src="images/CD-1.png" width="300"/>
 
