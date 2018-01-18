@@ -175,7 +175,7 @@ Continuous Deployment is another key practice within DevOps to enable the contin
 
 # Lab 5: Infrastructure as Code
 
-The ability to treat infrastructure (machines, networks, configuration) in the same way as code brings many benefits, but in particluar allows you to create infrastructure on demand and include that in your DevOps pipeline. 
+The ability to treat infrastructure (machines, networks, configuration) in the same way as code brings many benefits, but in particular allows you to create infrastructure on demand and include that in your DevOps pipeline. 
 
 Azure Resource Manager (ARM) templates are the native approach and this lab adds using ARM into the flow.
 
