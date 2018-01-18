@@ -55,7 +55,7 @@ For this lab you will require:
 4. Add a Code Tile to your **Lab Progress** dashboard:
 - Add the Code Tile:
 <img src="images/6.png" width="624"/>
-- Configure the tile and make sure that the branch is **master**:
+- Configure the tile and make sure that the branch is _master_:
 <img src="images/7.png" width="624"/>
 - Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
