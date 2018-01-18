@@ -55,7 +55,7 @@ For this lab you will require:
 4. Add a Code Tile to your **Lab Progress** dashboard:
 - Add the Code Tile:
 <img src="images/6.png" width="624"/>
-- Configure it and make sure that the branch is **master**
+- Configure the tile and make sure that the branch is **master**:
 <img src="images/7.png" width="624"/>
 - Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
@@ -83,7 +83,7 @@ Continuous Integration is a key DevOps practice to build, test and create the so
 4. Click **Create**:
 <img src="images/WA-3.png" width="624"/>
 5. Complete the highlighted fields as follows:
- - **App name**: Choose a unique name that will be the URL for the web application. For example use Health plus your initials. In my case that's Health-GJAD and therefore the URL for the website will be http://health-gjad.azurewebsites.net.
+ - **App name**: Choose a unique name that will be the URL for the web application. For example use Health plus your initials, e.g. Health-GJAD and therefore the URL for the website will be http://health-gjad.azurewebsites.net.
  - **Subscription**: If you have more than one subscription, ensure that you choose the correct one for this lab. 
  - **Resource Group**: Create a new resource group for your web app.
  - **OS**: Leave this as the default of Windows.
