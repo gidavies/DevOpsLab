@@ -22,7 +22,8 @@ For this lab you will require:
 
 1. Follow  [these instructions (overview section)](http://almvm.azurewebsites.net/labs/vsts/) to set the above up.
 2. Use the [VSTS Demo Generator](http://almvm.azurewebsites.net/labs/vsts/VSTSDemoGenerator/) to create a VSTS project using the My Health Clinic template. Call the project My Health Clinic or something similar.
-3. Create a new Dashboard in VSTS:
+
+3. Optional: Create a new Dashboard in VSTS:
 - In your VSTS project, select Dashboard and then New:
 <img src="images/1.png" width="624"/>
 
@@ -40,6 +41,7 @@ For this lab you will require:
 
 - Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
+
 # Lab 1: Working with Git
 
 [This lab](http://almvm.azurewebsites.net/labs/vsts/git/) will introduce you to using Git in VSTS for source control. 
@@ -52,7 +54,7 @@ For this lab you will require:
 - [Exercise 5: Manage branches from the Team Services Portal](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-5-manage-branches-from-the-team-services-portal)
 - [Exercise 6: Pull Requests](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-6-pull-requests)
 - [Exercise 7: Manage Repositories](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-7-manage-repositories). 
-4. Add a Code Tile to your Lab Progress dashboard:
+4. Optional: Add a Code Tile to your Lab Progress dashboard:
 - Add the Code Tile:
 <img src="images/6.png" width="624"/>
 - Configure the tile and make sure that the branch is master:
@@ -64,7 +66,7 @@ For this lab you will require:
 Continuous Integration is a key DevOps practice to build, test and create the software to later deploy.
 
 1. Complete the [Continuous Integration Lab](http://almvm.azurewebsites.net/labs/vsts/continuousintegration/).
-2. Add a Build History widget to the Lab Progress dashboard by:
+2. Optional: Add a Build History widget to the Lab Progress dashboard by:
 - Searching for and adding the build history widget:
 <img src="images/8.png" width="624"/>
 
@@ -119,6 +121,15 @@ Continuous Integration is a key DevOps practice to build, test and create the so
 <img src="images/WA-7.png" width="624"/>
 
 The exact page details will change over time but this now confirms that you have created a Web App in Azure. In the next lab we will deploy the web application into the newly created Web App.
+
+12. Optional: Add an Embedded Webpage widget to the Lab Progress dashboard by:
+- Searching for and adding the Embedded Webpage widget:
+<img src="images/WA-8.png" width="624"/>
+
+- Add the URL for your web app created in the preceding steps:
+<img src="images/WA-9.png" width="624"/>
+
+- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
 # Lab 4: Continuous Deployment
 
