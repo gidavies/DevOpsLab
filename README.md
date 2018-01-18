@@ -149,7 +149,7 @@ Continuous Deployment is another key practice within DevOps to enable to continu
 
 - [Exercise 2 (all)](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/#exercise-2-creating-release-definitions)
 
->Note: There is no need to complete Exercise 2 Steps 9 and 10 (replace the database connection string and ConnectionStrings variable plus Azure SQL database creation). The web application can create it's own local database.
+>Note: There is no need to complete Exercise 2 Steps 9 and 10 (replace the database connection string and ConnectionStrings variable plus Azure SQL database creation). The web application can create a local database.
 
 - [Exercise 3, Task 1 only](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/#task-1-triggers)
 
@@ -170,21 +170,23 @@ Continuous Deployment is another key practice within DevOps to enable to continu
 
 >- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
-# Lab 5: Automated Testing with Selenium
+# Lab 5: Infrastructure as Code
 
-To Do
+The ability to treat infrastructure (machines, networks, configuration) in the same way as code brings many benefits, but in particluar allows you to create infrastructure on demand and include that in your DevOps pipeline. 
 
-[Automated Testing with Selenium](http://almvm.azurewebsites.net/labs/vsts/selenium/)
+Azure Resource Manager (ARM) templates are the native approach and this lab adds using ARM into the flow.
 
-# Lab 6: Monitoring with Application Insights
+# Lab 6: Automated Testing with Selenium
 
-To Do
+Integrating automated tests into your DevOps pipeline can help drive quality whilst deploying more frequently. This lab integrates [Selenium](http://www.seleniumhq.org/), a popular testing framework, into your pipeline.
 
-[Monitoring with Application Insights](http://almvm.azurewebsites.net/labs/vsts/monitor/)
+1. Complete the [Automated Testing with Selenium](http://almvm.azurewebsites.net/labs/vsts/selenium/) Lab
 
-Other labs (To Do)
+# Lab 7: Monitoring with Application Insights
 
-ARM
+DevOps doesn't stop at deployment into production. Monitoring and understanding your application provides valuble insight. 
+
+1. Complete the [Monitoring with Application Insights] Lab(http://almvm.azurewebsites.net/labs/vsts/monitor/)
 
 # Other labs 
 
