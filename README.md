@@ -143,15 +143,15 @@ The exact page details will change over time but this now confirms that you have
 
 Continuous Deployment is another key practice within DevOps to enable to continuous delivery of value (in this example the web application) to end users.
 
-1. Complete the [Continuous Deployment Lab](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/) following Exercises:
+1. Complete the following [Continuous Deployment Lab](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/) exercises:
 
-- Exercise 1 (all)
+- [Exercise 1 (all)](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/#exercise-1-connect-to-microsoft-azure)
 
-- Exercise 2 (all)
+- [Exercise 2 (all)](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/#exercise-2-creating-release-definitions)
 
 >Note: There is no need to complete Exercise 2 Steps 9 and 10 (replace the database connection string and ConnectionStrings variable plus Azure SQL database creation). The web application can create it's own local database.
 
-- Exercise 3, Task 1 only.
+- [Exercise 3, Task 1 only](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/#task-1-triggers)
 
 2. Confirm that the continuous deployment pipeline is working:
 
