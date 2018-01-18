@@ -133,7 +133,19 @@ The exact page details will change over time but this now confirms that you have
 
 # Lab 4: Continuous Deployment
 
-[Continuous Deployment](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/)
+Continuous Deployment is another key practice within DevOps to enable to continuous delivery of value (in this example the web application) to end users.
+
+1. Complete the [Continuous Deployment Lab](http://almvm.azurewebsites.net/labs/vsts/continuousdeployment/) Exercises 1 and 2.
+>Note: There is no need to complete Exercise 2 Steps 9 and 10 (replace the database connection string and ConnectionStrings variable plus Azure SQL database creation). The web application can create it's own local database.
+
+2. Optional: Add a Release Definition Overview widget to the Lab Progress dashboard by:
+- Searching for and adding the Release Definition Overview widget:
+<img src="images/CD-1.png" width="300"/>
+
+- Set the Release Definition to the release created in the lab above:
+<img src="images/CD-2.png" width="624"/>
+
+- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
 # Lab 5: Automated Testing with Selenium
 
