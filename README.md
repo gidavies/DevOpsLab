@@ -91,7 +91,7 @@ Continuous Integration is a key DevOps practice to build, test and create the so
 <img src="images/WA-3.png" width="624"/>
 
 5. Complete the highlighted fields as follows:
-<img src="images/WA-4.png" width="624"/>
+<img src="images/WA-4.png" width="800"/>
 
 - App name: Choose a unique name that will be the URL for the web application such as Health plus your initials
 
