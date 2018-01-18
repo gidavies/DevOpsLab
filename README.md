@@ -83,6 +83,7 @@ Continuous Integration is a key DevOps practice to build, test and create the so
 4. Click Create:
 <img src="images/WA-3.png" width="624"/>
 5. Complete the highlighted fields as follows:
+<img src="images/WA-4.png" width="624"/>
 - App name: Choose a unique name that will be the URL for the web application. For example use Health plus your initials, e.g. Health-GJAD and therefore the URL for the website will be http://health-gjad.azurewebsites.net.
 - Subscription: If you have more than one subscription, ensure that you choose the correct one for this lab. 
 - Resource Group: Create a new resource group for your web app.
@@ -90,8 +91,7 @@ Continuous Integration is a key DevOps practice to build, test and create the so
 - App Service Plan/Location: Click on this to create a new App Service Plan. Complete these fields:
     - App Service plan: Enter a name, such as HealthPlan.
     - Location: Select an Azure region close to you.
-    - Pricing tier: Click on this, and select the F1 Free tier.
-<img src="images/WA-4.png" width="624"/>
+    - Pricing tier: Click on this, and select the F1 Free tier.ß
 6. Click OK to save the App Service Plan.
 7. Click Create to save and create the Web App.
 8. After a short time (perhaps 1-2 mins) you should see notification that the Web App has been successfully created. You may want to pin the web app to your Azure dashboard for easy location later on:
