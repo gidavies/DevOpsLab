@@ -2,6 +2,12 @@
 
 This lab will step through the key elements in setting up a DevOps pipeline for Azure using the DevOps tools for Azure - Visual Studio Team Services (VSTS).
 
+This lab is intended to provide a learning path through the [many existing VSTS labs](https://almvm.azurewebsites.net/), in order to focus on the core DevOps elements.
+
+[What is DevOps?](https://www.visualstudio.com/learn/what-is-devops/)
+
+[How Microsoft does DevOps](https://www.visualstudio.com/learn/devops-at-microsoft/)
+
 # Overall flow
 
 - Setup
@@ -164,8 +170,24 @@ Continuous Deployment is another key practice within DevOps to enable to continu
 
 # Lab 5: Automated Testing with Selenium
 
+To Do
+
 [Automated Testing with Selenium](http://almvm.azurewebsites.net/labs/vsts/selenium/)
 
 # Lab 6: Monitoring with Application Insights
 
+To Do
+
 [Monitoring with Application Insights](http://almvm.azurewebsites.net/labs/vsts/monitor/)
+
+Other labs (To Do)
+
+ARM
+
+# Other labs 
+
+If you'd like to continue exploring DevOps with VSTS then related labs include:
+
+[Node.js and Express continuous deployment with Visual Studio Team Services and Azure App Service](https://almvm.azurewebsites.net/labs/vsts/nodejs/express/)
+
+[DevOps with Visual Studio Team Services for Java](https://almvm.azurewebsites.net/labs/java/)
