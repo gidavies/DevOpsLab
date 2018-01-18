@@ -4,9 +4,11 @@ This lab will step through the key elements in setting up a DevOps pipeline for 
 
 This lab is intended to provide a learning path through the [many existing VSTS labs](https://almvm.azurewebsites.net/), in order to focus on the core DevOps elements.
 
-[What is DevOps?](https://www.visualstudio.com/learn/what-is-devops/)
+>Background reading
 
-[How Microsoft does DevOps](https://www.visualstudio.com/learn/devops-at-microsoft/)
+>[What is DevOps?](https://www.visualstudio.com/learn/what-is-devops/)
+
+>[How Microsoft does DevOps](https://www.visualstudio.com/learn/devops-at-microsoft/)
 
 # Overall flow
 
