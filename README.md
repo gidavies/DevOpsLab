@@ -84,7 +84,7 @@ Continuous Integration is a key DevOps practice to build, test and create the so
 <img src="images/WA-3.png" width="624"/>
 5. Complete the highlighted fields as follows:
 <img src="images/WA-4.png" width="624"/>
-- App name: Choose a unique name that will be the URL for the web application. E.g. Health plus your initials, and therefore the URL for the website will be http://healthandinitials.azurewebsites.net
+- App name: Choose a unique name that will be the URL for the web application such as Health plus your initials.
 - Subscription: If you have more than one subscription, ensure that you choose the correct one for this lab.
 - Resource Group: Create a new resource group for your web app.
 - OS: Leave this as the default of Windows.
