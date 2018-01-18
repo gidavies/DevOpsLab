@@ -45,7 +45,7 @@ For this lab you will require:
 >- Configure the Markdown widget and add the names of your team and any other summary info that might be useful:
 ><img src="images/5.png" width="624"/>
 
->- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
+- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
 
 # Lab 1: Working with Git
@@ -60,26 +60,26 @@ For this lab you will require:
 - [Exercise 5: Manage branches from the Team Services Portal](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-5-manage-branches-from-the-team-services-portal)
 - [Exercise 6: Pull Requests](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-6-pull-requests)
 - [Exercise 7: Manage Repositories](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-7-manage-repositories). 
-4. Optional: Add a Code Tile to your Lab Progress dashboard:
-- Add the Code Tile:
-<img src="images/6.png" width="624"/>
-- Configure the tile and make sure that the branch is master:
-<img src="images/7.png" width="624"/>
-- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
+>Optional: Add a Code Tile to your Lab Progress dashboard:
+>- Add the Code Tile:
+><img src="images/6.png" width="624"/>
+>- Configure the tile and make sure that the branch is master:
+><img src="images/7.png" width="624"/>
+>- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
 # Lab 2: Continuous Integration
 
 Continuous Integration is a key DevOps practice to build, test and create the software to later deploy.
 
 1. Complete the [Continuous Integration Lab](http://almvm.azurewebsites.net/labs/vsts/continuousintegration/).
-2. Optional: Add a Build History widget to the Lab Progress dashboard by:
-- Searching for and adding the build history widget:
-<img src="images/8.png" width="624"/>
+>Optional: Add a Build History widget to the Lab Progress dashboard by:
+>- Searching for and adding the build history widget:
+><img src="images/8.png" width="624"/>
 
-- Ensuring that it is configured to the build definition created in the preceding steps:
+>- Ensuring that it is configured to the build definition created in the preceding steps:
 <img src="images/9.png" width="624"/>
 
-- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
+>- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
 # Lab 3: Create an Azure Web App
 
@@ -128,14 +128,14 @@ Continuous Integration is a key DevOps practice to build, test and create the so
 
 The exact page details will change over time but this now confirms that you have created a Web App in Azure. In the next lab we will deploy the web application into the newly created Web App.
 
-12. Optional: Add an Embedded Webpage widget to the Lab Progress dashboard by:
-- Searching for and adding the Embedded Webpage widget:
-<img src="images/WA-8.png" width="624"/>
+>Optional: Add an Embedded Webpage widget to the Lab Progress dashboard by:
+>- Searching for and adding the Embedded Webpage widget:
+><img src="images/WA-8.png" width="624"/>
 
-- Add the URL for your web app created in the preceding steps:
-<img src="images/WA-9.png" width="624"/>
+>- Add the URL for your web app created in the preceding steps:
+><img src="images/WA-9.png" width="624"/>
 
-- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
+>- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
 # Lab 4: Continuous Deployment
 
@@ -159,14 +159,14 @@ Continuous Deployment is another key practice within DevOps to enable to continu
 
 - Once complete the Continuous Deployment should be triggered to deploy the changes into Azure.
 
-3. Optional: Add a Release Definition Overview widget to the Lab Progress dashboard by:
-- Searching for and adding the Release Definition Overview widget:
-<img src="images/CD-1.png" width="300"/>
+>Optional: Add a Release Definition Overview widget to the Lab Progress dashboard by:
+>- Searching for and adding the Release Definition Overview widget:
+><img src="images/CD-1.png" width="300"/>
 
-- Set the Release Definition to the release created in the lab above:
-<img src="images/CD-2.png" width="624"/>
+>- Set the Release Definition to the release created in the lab above:
+><img src="images/CD-2.png" width="624"/>
 
-- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
+>- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
 # Lab 5: Automated Testing with Selenium
 
