@@ -252,7 +252,13 @@ Azure Resource Manager (ARM) templates are the native approach and this lab adds
 15. Open the new release and move to the Logs tab to view progress.
 <img src="images/IC-21.png" width="624"/>
 
-Incomplete - view websites and end to end with CI
+16. After a few minutes you should see that both the Dev and QA environments have been successfully deployed to.
+<img src="images/IC-22.png" width="624"/>
+
+17. Explore the [Azure portal](http://portal.azure.com) to find the resource group MHC-QA-RG and the web app provisioned using ARM in the QA environment. Confirm that the App service has been deployed and open it using the URL in the App service overview.
+<img src="images/IC-23.png" width="624"/>
+
+18. Finally, re-enable the CI trigger in the build. Then make a change to a file in Visual Studio, commit and push, and check that the CI build is triggered, followed by the Continuous Deployment to both Dev and QA environments.
 
 # Lab 6: Automated Testing with Selenium
 
