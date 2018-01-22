@@ -52,14 +52,26 @@ For this lab you will require:
 
 >- Save the changes, close the widget gallery and save the dashboard by clicking on the blue edit button in the bottom right hand corner.
 
-
 # Lab 1: Working with Git
 
-[This lab](http://almvm.azurewebsites.net/labs/vsts/git/) will introduce you to using Git in VSTS for source control. 
+Having code and other artifacts under source control is a fundamental requirement. [This lab](http://almvm.azurewebsites.net/labs/vsts/git/) will introduce you to using Git in VSTS for source control. 
 
 1. Complete [Exercise 1: Cloning a Git repository](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-1-cloning-an-existing-repository) to ensure that you have the project cloned to Visual Studio.
-2. If you are new to Git then complete [Exercise 2: Save work with commits](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-2-save-work-with-commits). 
-3. Optionally complete:
+2. Update the .gitignore file to reduce the number of files to commit to Git (broadly anything that is an output of compilation as this doesn't need putting in source control). In Visual Studio open the Team Explorer and select Settings.
+<img src="images/5-1.png" width="300"/>
+
+3. Select Repository Settings.
+
+<img src="images/5-2.png" width="300"/>
+
+4. Select Edit Ignore File.
+
+<img src="images/5-3.png" width="300"/>
+
+5. Replace the (probably empty) .gitignore file contents with the generic [Visual Studio .gitignore file](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore) (click the Raw button at the top of the file to get the plain text version to copy and paste). Save and close the file.
+
+6. If you are new to Git then complete [Exercise 2: Save work with commits](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-2-save-work-with-commits). Use the MHC_ASPNetCore solution and note that you will see more than one change in the initial commit, carry on including those alongside your own change.
+7. Optionally complete:
 - [Exercise 3: Review History](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-3-review-history)
 - [Exercise 4: Manage Branches from Visual Studio](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-4-manage-branches-from-visual-studio)
 - [Exercise 5: Manage branches from the Team Services Portal](http://almvm.azurewebsites.net/labs/vsts/git/#exercise-5-manage-branches-from-the-team-services-portal)
