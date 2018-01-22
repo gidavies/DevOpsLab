@@ -195,17 +195,15 @@ Azure Resource Manager (ARM) templates are the native approach and this lab adds
 4. You now have a project in your solution containing a blank ARM template (azuredeploy.json) and a blank parameters file (azuredeploy.parameters.json).
 <img src="images/IC-4a.png" width="624"/>
 
-5. Download [azuredeploy.json](/ARM/azuredeploy.json) and [azuredeploy.parameters.json](/ARM/azuredeploy.parameters.json)
+5. View (or download) [azuredeploy.json](/ARM/azuredeploy.json) and [azuredeploy.parameters.json](/ARM/azuredeploy.parameters.json) and replace the contents of the same files in the Visual Studio solution with the contents from these.
 
-6. In Visual Studio 
-
-4. Add the new project to source control, but before doing so, temporarily turn off Continuous Integration so that a build and release aren't triggered (just to save time). In the browser, in the VSTS MyHealthClinic project select Build and Release | CI build definition | Edit.
+6. Before adding the new project to source control, temporarily turn off Continuous Integration so that a build and release aren't triggered (just to save time). In the browser, in the VSTS MyHealthClinic project select Build and Release | CI build definition | Edit.
 <img src="images/IC-5.png" width="624"/>
 
-5. Select Triggers and uncheck Enable continuous integration and save (not save & queue).
+7. Select Triggers and uncheck Enable continuous integration and save (not save & queue).
 <img src="images/IC-6.png" width="624"/>
 
-6. In Visual Studio, select the Team Explorer | Changes. Add a commit comment and select Commit All and Sync. Save if prompted.
+8. In Visual Studio, select the Team Explorer | Changes. Add a commit comment and select Commit All and Sync. Save if prompted.
 <img src="images/IC-7.png" width="624"/>
 
 ## Task 2 - Update the release pipline to provision the Web App using the ARM template.
@@ -225,27 +223,35 @@ Azure Resource Manager (ARM) templates are the native approach and this lab adds
 5. Select the cloned environment Copy of Dev and change the name to QA and close the Environment window.
 <img src="images/IC-12.png" width="624"/>.
 
-6. Select the QA environment and in Tasks click the plus sign and then search for the Azure Resource Group Deployment task. Select Add. TODODODO
+6. Select the QA environment and in Tasks click the plus sign and then search for the Azure Resource Group Deployment task. Select Add.
 <img src="images/IC-13.png" width="624"/>
 
 7. Set the Azure Details. Select the MHC-Azure subscription, Ensure that the Action is Create or update resource group, Enter a new resource group name for the QA environment e.g. MHC-QA-RG and set the location.
 <img src="images/IC-14.png" width="624"/>
 
-8. In the Template section set the Template (using the ... button) to MyHealthClinic (Git) MyHealth.ARM/WebSite.json and click OK.
-<img src="images/IC-15.png" width="624"/>
+8. In the Template section set the Template (using the ... button) to MyHealthClinic (Git) MyHealth.ARM/azuredeploy.json and click OK.
+<img src="images/IC-15a.png" width="624"/>
 
-9. Set the Template parameters field (using the ... button) to MyHealthClinic (Git) MyHealth.ARM/WebSite.parameterrs.json and click OK.
-<img src="images/IC-16.png" width="624"/>
+9. Set the Template parameters field (using the ... button) to MyHealthClinic (Git) MyHealth.ARM/azuredeploy.parameterrs.json and click OK.
+<img src="images/IC-16a.png" width="624"/>
 
-10. Set the Overide Template parameters field (using the ... button) to MHCQAPlan and click OK.
-<img src="images/IC-17.png" width="624"/>
+10. Set the Overide Template parameters field (using the ... button) to MHCQAPlan, te webSiteName to the same as the Dev website but with QA appendeded and click OK.
+<img src="images/IC-17a.png" width="624"/>
 
 11. Move the Azure Deployment: Create or Update Resource Group task to be before the Deploy Azure App Service task.
 
-12. In the QA settings set the App service name to a new name including the text QA 
+12. In the QA settings set the App service name to the name you used in step 10 above. Save your changes. 
 <img src="images/IC-18.png" width="624"/>
 
-Set approvals?
+13. Test the release by selecting the release definition and Release.
+<img src="images/IC-19.png" width="624"/>
+
+14. Click OK on the release screen, noting that you should now have both a Dev and a QA Environment.
+<img src="images/IC-20.png" width="624"/>
+
+15. Open the new release and move to the Logs tab to view progress.
+<img src="images/IC-21.png" width="624"/>
+
 
 # Lab 6: Automated Testing with Selenium
 
