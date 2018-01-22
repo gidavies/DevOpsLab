@@ -110,10 +110,10 @@ Continuous Integration is a key DevOps practice to build, test and create the so
 <img src="images/WA-1.png" width="624"/>
 
 3. Press enter and select Web App from the list:
-<img src="images/WA-2.png" width="624"/>
+<img src="images/WA-2.png" width="800"/>
 
 4. Click Create:
-<img src="images/WA-3.png" width="624"/>
+<img src="images/WA-3.png" width="424"/>
 
 5. Complete the highlighted fields as follows:
 <img src="images/WA-4.png" width="800"/>
@@ -135,7 +135,8 @@ Continuous Integration is a key DevOps practice to build, test and create the so
 7. Click Create to save and create the Web App.
 
 8. After a short time (perhaps 1-2 mins) you should see notification that the Web App has been successfully created. You may want to pin the web app to your Azure dashboard for easy location later on:
-<img src="images/WA-5.png" width="624"/>
+
+<img src="images/WA-5.png" width="324"/>
 
 9. Confirm that your Web App is created by selecting Go to resource.
 
@@ -205,7 +206,7 @@ Azure Resource Manager (ARM) templates are the native approach and this lab adds
 <img src="images/IC-3a.png" width="624"/>
 
 4. You now have a project in your solution containing a blank ARM template (azuredeploy.json) and a blank parameters file (azuredeploy.parameters.json).
-<img src="images/IC-4a.png" width="624"/>
+<img src="images/IC-4a.png" width="324"/>
 
 5. View (or download) [azuredeploy.json](/ARM/azuredeploy.json) and [azuredeploy.parameters.json](/ARM/azuredeploy.parameters.json) and replace the contents of the same files in the Visual Studio solution with the contents from these.
 
@@ -216,9 +217,10 @@ Azure Resource Manager (ARM) templates are the native approach and this lab adds
 <img src="images/IC-6.png" width="624"/>
 
 8. In Visual Studio, select the Team Explorer | Changes. Add a commit comment and select Commit All and Sync. Save if prompted.
-<img src="images/IC-7.png" width="624"/>
 
-## Task 2 - Update the release pipline to provision the Web App using the ARM template.
+<img src="images/IC-7.png" width="324"/>
+
+## Task 2 - Update the release pipeline to provision the Web App using the ARM template.
 
 1. In VSTS select Build and Release | Releases | the release pipeline e.g. MHC.CD and Edit.
 <img src="images/IC-8.png" width="624"/>
