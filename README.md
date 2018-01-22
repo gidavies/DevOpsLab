@@ -181,6 +181,72 @@ The ability to treat infrastructure (machines, networks, configuration) in the s
 
 Azure Resource Manager (ARM) templates are the native approach and this lab adds using ARM into the flow.
 
+## Task 1 - Create the ARM template for a Web App
+
+1. In Visual Studio, with the Health Clinic solution open in Solution Explorer, right click the solution and select Add | New Project.
+<img src="images/IC-1.png" width="624"/>
+
+2. Select Cloud | Azure Resource Group and name the project MyHealth.ARM.
+<img src="images/IC-2.png" width="624"/>
+
+3. From the Visual Studio Templates select Blank Template and click OK.
+<img src="images/IC-3a.png" width="624"/>
+
+4. You now have a project in your solution containing a blank ARM template (azuredeploy.json) and a blank parameters file (azuredeploy.parameters.json).
+<img src="images/IC-4a.png" width="624"/>
+
+5. Download [azuredeploy.json](/ARM/azuredeploy.json) and [azuredeploy.parameters.json](/ARM/azuredeploy.parameters.json)
+
+6. In Visual Studio 
+
+4. Add the new project to source control, but before doing so, temporarily turn off Continuous Integration so that a build and release aren't triggered (just to save time). In the browser, in the VSTS MyHealthClinic project select Build and Release | CI build definition | Edit.
+<img src="images/IC-5.png" width="624"/>
+
+5. Select Triggers and uncheck Enable continuous integration and save (not save & queue).
+<img src="images/IC-6.png" width="624"/>
+
+6. In Visual Studio, select the Team Explorer | Changes. Add a commit comment and select Commit All and Sync. Save if prompted.
+<img src="images/IC-7.png" width="624"/>
+
+## Task 2 - Update the release pipline to provision the Web App using the ARM template.
+
+1. In VSTS select Build and Release | Releases | the release pipeline e.g. MHC.CD and Edit.
+<img src="images/IC-8.png" width="624"/>
+
+2. Add a new artifect to the release pipeline.
+<img src="images/IC-9.png" width="624"/>
+
+3. Set the Source type to Git, the Project and Source (repository) to the MyHealthClinic project, the Default branch to master and the default version to Latest from default branch. Then click Add.
+<img src="images/IC-10.png" width="624"/>
+
+4. In the Pipeline view hover over the Dev environment and select Clone.
+<img src="images/IC-11.png" width="624"/>
+
+5. Select the cloned environment Copy of Dev and change the name to QA and close the Environment window.
+<img src="images/IC-12.png" width="624"/>.
+
+6. Select the QA environment and in Tasks click the plus sign and then search for the Azure Resource Group Deployment task. Select Add. TODODODO
+<img src="images/IC-13.png" width="624"/>
+
+7. Set the Azure Details. Select the MHC-Azure subscription, Ensure that the Action is Create or update resource group, Enter a new resource group name for the QA environment e.g. MHC-QA-RG and set the location.
+<img src="images/IC-14.png" width="624"/>
+
+8. In the Template section set the Template (using the ... button) to MyHealthClinic (Git) MyHealth.ARM/WebSite.json and click OK.
+<img src="images/IC-15.png" width="624"/>
+
+9. Set the Template parameters field (using the ... button) to MyHealthClinic (Git) MyHealth.ARM/WebSite.parameterrs.json and click OK.
+<img src="images/IC-16.png" width="624"/>
+
+10. Set the Overide Template parameters field (using the ... button) to MHCQAPlan and click OK.
+<img src="images/IC-17.png" width="624"/>
+
+11. Move the Azure Deployment: Create or Update Resource Group task to be before the Deploy Azure App Service task.
+
+12. In the QA settings set the App service name to a new name including the text QA 
+<img src="images/IC-18.png" width="624"/>
+
+Set approvals?
+
 # Lab 6: Automated Testing with Selenium
 
 Integrating automated tests into your DevOps pipeline can help drive quality whilst deploying more frequently. This lab integrates [Selenium](http://www.seleniumhq.org/), a popular testing framework, into your pipeline.
