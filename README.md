@@ -211,7 +211,7 @@ Azure Resource Manager (ARM) templates are the native approach and this lab adds
 1. In VSTS select Build and Release | Releases | the release pipeline e.g. MHC.CD and Edit.
 <img src="images/IC-8.png" width="624"/>
 
-2. Add a new artifect to the release pipeline.
+2. Add a new artifact to the release pipeline.
 <img src="images/IC-9.png" width="624"/>
 
 3. Set the Source type to Git, the Project and Source (repository) to the MyHealthClinic project, the Default branch to master and the default version to Latest from default branch. Then click Add.
@@ -252,6 +252,7 @@ Azure Resource Manager (ARM) templates are the native approach and this lab adds
 15. Open the new release and move to the Logs tab to view progress.
 <img src="images/IC-21.png" width="624"/>
 
+Incomplete - view websites and end to end with CI
 
 # Lab 6: Automated Testing with Selenium
 
